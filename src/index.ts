@@ -80,8 +80,8 @@ export { parseArgv, parseLine } from "./parser"
 /**
  * @ignore
  */
-export { registerTemplate  } from './help';
-export * as helpUtils from './help/utils';
+export { registerTemplate } from './help';
+export { getCommandsTable, getOptionsTable } from './help/utils';
 
 /**
  * @ignore
