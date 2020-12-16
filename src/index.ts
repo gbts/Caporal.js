@@ -80,6 +80,12 @@ export { parseArgv, parseLine } from "./parser"
 /**
  * @ignore
  */
+export { registerTemplate  } from './help';
+export * as helpUtils from './help/utils';
+
+/**
+ * @ignore
+ */
 export const program = new Program()
 
 /**
